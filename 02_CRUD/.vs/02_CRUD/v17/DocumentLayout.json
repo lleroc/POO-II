@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\vistas\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\vistas\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\modelos\\login_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:modelos\\login_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\vistas\\usuarios\\frm_lista_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\usuarios\\frm_lista_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\vistas\\usuarios\\frm_lista_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\usuarios\\frm_lista_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_login.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\frm_login.cs",
+              "RelativeDocumentMoniker": "Vistas\\frm_login.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\frm_login.cs",
+              "RelativeToolTip": "Vistas\\frm_login.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAzwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:42:37.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\frm_login.cs",
+              "RelativeDocumentMoniker": "Vistas\\frm_login.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\frm_login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\frm_login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:42:09.769Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login_Model.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\Login_Model.cs",
+              "RelativeDocumentMoniker": "Modelos\\Login_Model.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\Login_Model.cs",
+              "RelativeToolTip": "Modelos\\Login_Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:40:44.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuarios_Controller.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
+              "RelativeDocumentMoniker": "Controladores\\Usuarios_Controller.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
+              "RelativeToolTip": "Controladores\\Usuarios_Controller.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwHMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:49:41.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_lista_usuarios.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "RelativeToolTip": "Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwDEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:47:36.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_lista_usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_lista_usuarios.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_lista_usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Usuarios\\frm_lista_usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:46:46.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
