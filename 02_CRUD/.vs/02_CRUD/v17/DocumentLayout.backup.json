@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\vistas\\usuarios\\frm_edita_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\usuarios\\frm_edita_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\vistas\\usuarios\\frm_edita_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:vistas\\usuarios\\frm_edita_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\migrations\\20251119013142_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:migrations\\20251119013142_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\modelos\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:modelos\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\config\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:config\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\config\\sqlserver_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:config\\sqlserver_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuarios_Controller.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
-              "RelativeDocumentMoniker": "Controladores\\Usuarios_Controller.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
-              "RelativeToolTip": "Controladores\\Usuarios_Controller.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAIAywH8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20251119013142_Cliente.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Migrations\\20251119013142_Cliente.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251119013142_Cliente.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Migrations\\20251119013142_Cliente.cs",
+              "RelativeToolTip": "Migrations\\20251119013142_Cliente.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T00:35:42.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T01:31:43.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "conexion.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Config\\conexion.cs",
+              "RelativeDocumentMoniker": "Config\\conexion.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Config\\conexion.cs",
+              "RelativeToolTip": "Config\\conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:25:46.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frm_edita_usuario.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "RelativeToolTip": "Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAtwDoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T00:08:53.485Z",
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-19T01:24:48.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_edita_usuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_edita_usuario.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Vistas\\Usuarios\\frm_edita_usuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Usuarios\\frm_edita_usuario.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "Modelos\\ClienteModel.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\ClienteModel.cs",
+              "RelativeToolTip": "Modelos\\ClienteModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvx0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T23:58:54.882Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-19T01:16:12.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sqlServer_dbcontext.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Config\\sqlServer_dbcontext.cs",
+              "RelativeDocumentMoniker": "Config\\sqlServer_dbcontext.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Config\\sqlServer_dbcontext.cs",
+              "RelativeToolTip": "Config\\sqlServer_dbcontext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T01:10:11.211Z"
             }
           ]
         }
