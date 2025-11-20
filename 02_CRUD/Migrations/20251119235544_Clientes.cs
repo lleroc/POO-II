@@ -5,7 +5,7 @@
 namespace _02_CRUD.Migrations
 {
     /// <inheritdoc />
-    public partial class Cliente : Migration
+    public partial class Clientes : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

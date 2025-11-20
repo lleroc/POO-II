@@ -11,8 +11,8 @@ using _02_CRUD.Config;
 namespace _02_CRUD.Migrations
 {
     [DbContext(typeof(sqlServer_dbcontext))]
-    [Migration("20251119013142_Cliente")]
-    partial class Cliente
+    [Migration("20251120001934_estado_cliente")]
+    partial class estado_cliente
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,6 +43,9 @@ namespace _02_CRUD.Migrations
                     b.Property<string>("Direcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Estado")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Nombres")
                         .IsRequired()

@@ -26,8 +26,12 @@ namespace _02_CRUD.Modelos
         [Required(ErrorMessage = "El campo es requirido")]
         public string Correo { get; set; }
 
+        public bool Estado { get; set; }
+
+
         [NotMapped]
         public string Nombre_Completo { get; set; }
+     
 
     }
 }

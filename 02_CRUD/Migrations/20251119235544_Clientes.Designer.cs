@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _02_CRUD.Config;
 
@@ -10,9 +11,11 @@ using _02_CRUD.Config;
 namespace _02_CRUD.Migrations
 {
     [DbContext(typeof(sqlServer_dbcontext))]
-    partial class sqlServer_dbcontextModelSnapshot : ModelSnapshot
+    [Migration("20251119235544_Clientes")]
+    partial class Clientes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +43,6 @@ namespace _02_CRUD.Migrations
                     b.Property<string>("Direcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Estado")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Nombres")
                         .IsRequired()
