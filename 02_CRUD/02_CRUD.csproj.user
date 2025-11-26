@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Vistas\Clientes\frm_agregar_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\Clientes\frm_editar_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\Clientes\frm_lista_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Vistas\Dashboad\frm_dashboard.cs">
       <SubType>Form</SubType>
     </Compile>

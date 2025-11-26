@@ -131,3 +131,6 @@ D:\UNIANDES\Estudiantes\POO II\02_CRUD\bin\Debug\net8.0-windows\runtimes\win-arm
 D:\UNIANDES\Estudiantes\POO II\02_CRUD\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\UNIANDES\Estudiantes\POO II\02_CRUD\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\UNIANDES\Estudiantes\POO II\02_CRUD\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\UNIANDES\Estudiantes\POO II\02_CRUD\obj\Debug\net8.0-windows\_02_CRUD.Vistas.Clientes.frm_lista_clientes.resources
+D:\UNIANDES\Estudiantes\POO II\02_CRUD\obj\Debug\net8.0-windows\_02_CRUD.Vistas.Clientes.frm_agregar_cliente.resources
+D:\UNIANDES\Estudiantes\POO II\02_CRUD\obj\Debug\net8.0-windows\_02_CRUD.Vistas.Clientes.frm_editar_cliente.resources

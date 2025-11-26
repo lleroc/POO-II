@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\controladores\\cliente_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:controladores\\cliente_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:controladores\\usuarios_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|d:\\uniandes\\estudiantes\\poo ii\\02_crud\\modelos\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040C5DF5-3399-41D6-9786-D2BF4224BEBE}|02_CRUD.csproj|solutionrelative:modelos\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuarios_Controller.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
-              "RelativeDocumentMoniker": "Controladores\\Usuarios_Controller.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Usuarios_Controller.cs",
-              "RelativeToolTip": "Controladores\\Usuarios_Controller.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T00:23:03.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "Modelos\\ClienteModel.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Modelos\\ClienteModel.cs",
-              "RelativeToolTip": "Modelos\\ClienteModel.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T00:17:41.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cliente_Controller.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Cliente_Controller.cs",
-              "RelativeDocumentMoniker": "Controladores\\Cliente_Controller.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\02_CRUD\\Controladores\\Cliente_Controller.cs",
-              "RelativeToolTip": "Controladores\\Cliente_Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T00:01:12.699Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

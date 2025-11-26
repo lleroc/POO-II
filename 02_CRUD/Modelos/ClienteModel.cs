@@ -30,7 +30,7 @@ namespace _02_CRUD.Modelos
 
 
         [NotMapped]
-        public string Nombre_Completo { get; set; }
+        public string Nombre_Completo { get; set; } 
      
 
     }

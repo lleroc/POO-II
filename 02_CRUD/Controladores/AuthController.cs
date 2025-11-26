@@ -63,26 +63,34 @@ namespace _02_CRUD.Controladores
                 {
                     using (SqlDataReader lector = cmd.ExecuteReader())
                     {
-                        if (lector == null) return null;
-                        lector.Read();
-                        if (lector["contasenia"].ToString() == login.contasenia)
-                        {
-                            Usuario_Model usuario = new Usuario_Model
+                        if (lector.HasRows){
+                            lector.Read();
+                            if (lector["contasenia"].ToString() == login.contasenia)
                             {
-                                Apellido_Usuario = lector["Apellido_Usuario"].ToString(),
-                                Cedula_Usuario = lector["Cedula_Usuario"].ToString(),
-                                contasenia = lector["contasenia"].ToString(),
-                                Correo_Usuario = lector["Correo_Usuario"].ToString(),
-                                Estado = (bool)lector["Estado"],
-                                Nombre_Usuario = lector["Nombre_Usuario"].ToString(),
-                                Id_Usuario = (int)lector["Id_Usuario"],
-                            };
-                            return usuario;
+                                Usuario_Model usuario = new Usuario_Model
+                                {
+                                    Apellido_Usuario = lector["Apellido_Usuario"].ToString(),
+                                    Cedula_Usuario = lector["Cedula_Usuario"].ToString(),
+                                    contasenia = lector["contasenia"].ToString(),
+                                    Correo_Usuario = lector["Correo_Usuario"].ToString(),
+                                    Estado = (bool)lector["Estado"],
+                                    Nombre_Usuario = lector["Nombre_Usuario"].ToString(),
+                                    Id_Usuario = (int)lector["Id_Usuario"],
+                                };
+                                return usuario;
+                            }
+                            else
+                            {
+                                return null;
+                            }
+
                         }
-                        else { 
+                        else
+                        {
                             return null;
                         }
-                       
+
+
                     }
 
                 }
