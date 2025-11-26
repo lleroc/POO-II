@@ -2,9 +2,27 @@ namespace mysql
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private readonly DATOS.Mysql_DBContext _db;
+
+        public Form1(DATOS.Mysql_DBContext db)
         {
+            _db = db;
             InitializeComponent();
+            Load += Form1_Load;
+        }
+
+        private void Form1_Load(object? sender, EventArgs e)
+        {
+            try
+            {
+                // Simple query to test EF Core + MySQL connectivity
+                var count = _db.Pacientes.Count();
+                Text = $"Pacientes ({count})";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error conectando a MySQL: {ex.Message}");
+            }
         }
     }
 }

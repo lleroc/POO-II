@@ -1,0 +1,56 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.IO;
+
+namespace mysql.DATOS
+{
+    public class Mysql_DBContext : DbContext
+    {
+        public Mysql_DBContext(DbContextOptions<Mysql_DBContext> op) : base(op)
+        {
+        }
+
+        // Ctor sin parámetros para tiempo de diseño (Add-Migration) sin crear archivos extra
+        public Mysql_DBContext()
+        {
+        }
+
+        public DbSet<PacienteModel> Pacientes { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                // Intentar cargar la cadena desde app.json tanto en tiempo de diseño como de ejecución
+                var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+                var currentDir = Directory.GetCurrentDirectory();
+                var possiblePaths = new[]
+                {
+                    Path.Combine(baseDir, "app.json"),
+                    Path.Combine(currentDir, "app.json")
+                };
+                string? cn = null;
+                foreach (var path in possiblePaths)
+                {
+                    if (File.Exists(path))
+                    {
+                        var config = new ConfigurationBuilder()
+                            .SetBasePath(Path.GetDirectoryName(path)!)
+                            .AddJsonFile("app.json", optional: false)
+                            .Build();
+                        cn = config.GetConnectionString("cnjson");
+                        if (!string.IsNullOrWhiteSpace(cn))
+                            break;
+                    }
+                }
+                // Fallback para diseño si no se encuentra configuración
+                if (string.IsNullOrWhiteSpace(cn))
+                {
+                    cn = "server=localhost;uid=root;pwd=root;database=Pacientes";
+                }
+                optionsBuilder.UseMySql(cn, ServerVersion.AutoDetect(cn));
+            }
+        }
+    }
+}

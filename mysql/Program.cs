@@ -31,13 +31,20 @@ namespace mysql
                 var services = new ServiceCollection();
                 // Connection string desde app.json
                 var cn = configuration.GetConnectionString("cnjson");
-                // 3. Configurar DbConctext con Mysql (Pomelo)
+                //3. Configurar DbConctext con Mysql (Pomelo)
                 services.AddDbContext<Mysql_DBContext>(op => 
                 op.UseMySql(cn, ServerVersion.AutoDetect(cn)));
 
                 services.AddTransient<Form1>();
 
                 ServiceProvier = services.BuildServiceProvider();
+
+                //4. Ejecutar migraciones automáticamente al inicio
+                using (var scope = ServiceProvier.CreateScope())
+                {
+                    var db = scope.ServiceProvider.GetRequiredService<Mysql_DBContext>();
+                    db.Database.Migrate();
+                }
 
                 ApplicationConfiguration.Initialize();
                 var form1 = ServiceProvier.GetRequiredService<Form1>();
