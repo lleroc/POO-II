@@ -11,7 +11,12 @@ namespace mysql.DATOS
         {
         }
 
-        public DbSet<PacienteModel> Pacientes { get; set; }
+        public Mysql_DBContext()
+        {
+            
+        }
+
+       
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

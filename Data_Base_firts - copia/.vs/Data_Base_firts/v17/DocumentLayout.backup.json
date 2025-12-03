@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\controladores\\usuarioscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:controladores\\usuarioscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "usuariosControllers.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\usuariosControllers.cs",
+              "RelativeDocumentMoniker": "Controladores\\usuariosControllers.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\usuariosControllers.cs",
+              "RelativeToolTip": "Controladores\\usuariosControllers.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:07:30.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:16:50.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_usuarios.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_usuarios.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
+              "RelativeToolTip": "Vistas\\Usuarios\\frm_usuarios.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAywHEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:01:35.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_usuarios.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Usuarios\\frm_usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T23:55:10.651Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
