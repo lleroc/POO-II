@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\clientes\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\clientes\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\clientes\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\clientes\\frm_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\controladores\\usuarioscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:controladores\\usuarioscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:vistas\\usuarios\\frm_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|d:\\uniandes\\estudiantes\\poo ii\\data_base_firts - copia\\controladores\\clientescontrolles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42938B72-AD1F-43BC-8D1A-50085EFF1764}|Data_Base_firts.csproj|solutionrelative:controladores\\clientescontrolles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,51 +42,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "usuariosControllers.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\usuariosControllers.cs",
-              "RelativeDocumentMoniker": "Controladores\\usuariosControllers.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\usuariosControllers.cs",
-              "RelativeToolTip": "Controladores\\usuariosControllers.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwEEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T01:07:30.888Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAAsAAAAAAAAAA==",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T00:16:50.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_usuarios.cs",
-              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_usuarios.cs",
-              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
-              "RelativeToolTip": "Vistas\\Usuarios\\frm_usuarios.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwEMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T00:01:35.223Z",
+              "WhenOpened": "2025-12-04T01:29:27.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "frm_usuarios.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_usuarios.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
+              "RelativeToolTip": "Vistas\\Usuarios\\frm_usuarios.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:22:26.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frm_usuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs",
               "RelativeDocumentMoniker": "Vistas\\Usuarios\\frm_usuarios.cs",
               "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Usuarios\\frm_usuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "Vistas\\Usuarios\\frm_usuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T23:55:10.651Z"
+              "WhenOpened": "2025-12-04T01:22:25.314Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clientesControlles.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\clientesControlles.cs",
+              "RelativeDocumentMoniker": "Controladores\\clientesControlles.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Controladores\\clientesControlles.cs",
+              "RelativeToolTip": "Controladores\\clientesControlles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:16:50.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_clientes.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Clientes\\frm_clientes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Clientes\\frm_clientes.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Clientes\\frm_clientes.cs",
+              "RelativeToolTip": "Vistas\\Clientes\\frm_clientes.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAlwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:04:55.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_clientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Clientes\\frm_clientes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Clientes\\frm_clientes.cs",
+              "ToolTip": "D:\\UNIANDES\\Estudiantes\\POO II\\Data_Base_firts - copia\\Vistas\\Clientes\\frm_clientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Clientes\\frm_clientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T00:59:17.9Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

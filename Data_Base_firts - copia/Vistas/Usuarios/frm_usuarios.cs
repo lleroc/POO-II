@@ -47,7 +47,7 @@ namespace Data_Base_firts.Vistas.Usuarios
 
         private void txt_email_Leave(object sender, EventArgs e)
         {
-            if (usuarioId_editar > 0) return; 
+            if (usuarioId_editar > 0) return;
             var email = _usuariosController.EmailExists(txt_email.Text.Trim());
             if (email == false)
             {
@@ -88,7 +88,8 @@ namespace Data_Base_firts.Vistas.Usuarios
                 usuario.UsuarioId = usuarioId_editar;
                 resultado = _usuariosController.UpdateUsuario(usuario);
             }
-            else {
+            else
+            {
                 resultado = _usuariosController.AddUsuario(usuario);
             }
             if (resultado)
@@ -141,7 +142,8 @@ namespace Data_Base_firts.Vistas.Usuarios
             cmb_rol.Enabled = false;
 
         }
-        public void acctivacajas() {
+        public void acctivacajas()
+        {
             btn_nuevo.Enabled = false;
             lst_lista_usuarios.Enabled = false;
             btn_editar.Enabled = false;
@@ -168,22 +170,73 @@ namespace Data_Base_firts.Vistas.Usuarios
             }
             else
             {
-                var usuario = _usuariosController.GetUsuarioById((int)lst_lista_usuarios.SelectedValue);
-                if (usuario == null)
-                {
-                    MessageBox.Show("No se encontro al usuario", "Gestion de Usuarios",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else { 
-                    txt_apellido.Text = usuario.Apellido;
-                    txt_nombre.Text = usuario.Nombre;
-                    txt_email.Text = usuario.Email;
-                    txt_contrasenia.Text = usuario.PasswordHash;
-                    chb_estado.Checked = usuario.Activo ?? false;
-                    cmb_rol.SelectedValue = usuario.RolId;
-                    usuarioId_editar = usuario.UsuarioId;
+                uno(1);
+            }
+        }
 
+        public void uno(int opcion)
+        {
+            var usuario = _usuariosController.GetUsuarioById((int)lst_lista_usuarios.SelectedValue);
+            if (usuario == null)
+            {
+                MessageBox.Show("No se encontro al usuario", "Gestion de Usuarios",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                txt_apellido.Text = usuario.Apellido;
+                txt_nombre.Text = usuario.Nombre;
+                txt_email.Text = usuario.Email;
+                txt_contrasenia.Text = usuario.PasswordHash;
+                chb_estado.Checked = usuario.Activo ?? false;
+                cmb_rol.SelectedValue = usuario.RolId;
+                
+                if (opcion == 1)
+                {
+                    usuarioId_editar = usuario.UsuarioId;
                     acctivacajas();
+                } 
+            }
+        }
+
+        private void btn_salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void lst_lista_usuarios_DoubleClick(object sender, EventArgs e)
+        {
+            uno(0);
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            if (lst_lista_usuarios.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, seleccione un usuario para eliminar.", "Gestion de Usuarios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+               var resultado = MessageBox.Show("¿Está seguro de que desea eliminar este usuario?"
+                   , "Gestion de Usuarios", 
+                   MessageBoxButtons.YesNo, 
+                   MessageBoxIcon.Question);
+                if (resultado == DialogResult.Yes) {
+                    var usuarioId = (int)lst_lista_usuarios.SelectedValue;
+                    var eliminar = _usuariosController.DeleteUsuario(usuarioId);
+                    if (eliminar)
+                    {
+                        MessageBox.Show("Usuario eliminado con éxito.", "Gestion de Usuarios", 
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiar_campos();
+                        carga_lista();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar el usuario. Por favor, intente nuevamente."
+                            , "Gestion de Usuarios", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

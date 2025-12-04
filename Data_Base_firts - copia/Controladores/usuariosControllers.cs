@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -64,14 +65,23 @@ namespace Data_Base_firts.Controladores
                 return false;
             }
         }
-        public void DeleteUsuario(int id)
+        public bool DeleteUsuario(int id)
         {
-            var usuario = _context.Usuarios.Find(id);
-            if (usuario != null)
+            try
             {
-                _context.Usuarios.Remove(usuario);
-                _context.SaveChanges();
+                var usuario = _context.Usuarios.Find(id);
+                if (usuario != null)
+                {
+                    _context.Usuarios.Remove(usuario);
+                    _context.SaveChanges();
+                }
+                return true;
             }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
         public Usuario Authenticate(string email, string password)
         {

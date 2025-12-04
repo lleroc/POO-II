@@ -9,6 +9,6 @@ namespace Data_Base_firts
 {
     public static class Globales
     {
-        public static Usuario Usuariologueado { get; set; }
+        
     }
 }

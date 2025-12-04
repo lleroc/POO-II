@@ -24,7 +24,13 @@
                 Authenticate(txt_correo.Text.Trim(), txt_contrasenia.Text.Trim());
             if (usuario != null)
             {
-                
+                Program.logueado = true;
+                Program.usuarioActualId = usuario.UsuarioId;
+                Program.rol = usuario.Rol.NombreRol;
+                Program.rolId = usuario.RolId;
+                Program.nombreUsuario = usuario.NombreCompleto;
+
+
                 MessageBox.Show("Inicio de sesión exitoso");
                 frm_principal principalForm = new frm_principal();
                 principalForm.Show();

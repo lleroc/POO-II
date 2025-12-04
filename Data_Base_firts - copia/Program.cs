@@ -1,5 +1,6 @@
 using _02_CRUD.Vistas;
 using Data_Base_firts.Models;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Data_Base_firts
 {
@@ -10,6 +11,12 @@ namespace Data_Base_firts
         /// </summary>
         /// 
        
+        public static int usuarioActualId;
+        public static string rol;
+        public static int rolId;
+        public static string nombreUsuario;
+        public static bool logueado;
+
         [STAThread]
         static void Main()
         {

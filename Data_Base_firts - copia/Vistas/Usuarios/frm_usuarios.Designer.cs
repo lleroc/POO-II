@@ -47,6 +47,7 @@
             btn_salir = new Button();
             label7 = new Label();
             cmb_rol = new ComboBox();
+            btn_eliminar = new Button();
             SuspendLayout();
             // 
             // lst_lista_usuarios
@@ -57,6 +58,7 @@
             lst_lista_usuarios.Name = "lst_lista_usuarios";
             lst_lista_usuarios.Size = new Size(193, 259);
             lst_lista_usuarios.TabIndex = 0;
+            lst_lista_usuarios.DoubleClick += lst_lista_usuarios_DoubleClick;
             // 
             // label1
             // 
@@ -208,6 +210,7 @@
             btn_salir.TabIndex = 16;
             btn_salir.Text = "Salir";
             btn_salir.UseVisualStyleBackColor = true;
+            btn_salir.Click += btn_salir_Click;
             // 
             // label7
             // 
@@ -227,11 +230,23 @@
             cmb_rol.Size = new Size(162, 23);
             cmb_rol.TabIndex = 18;
             // 
+            // btn_eliminar
+            // 
+            btn_eliminar.ForeColor = Color.DarkRed;
+            btn_eliminar.Location = new Point(276, 311);
+            btn_eliminar.Name = "btn_eliminar";
+            btn_eliminar.Size = new Size(75, 23);
+            btn_eliminar.TabIndex = 19;
+            btn_eliminar.Text = "Eliminar";
+            btn_eliminar.UseVisualStyleBackColor = true;
+            btn_eliminar.Click += btn_eliminar_Click;
+            // 
             // frm_usuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(428, 443);
+            ClientSize = new Size(426, 443);
+            Controls.Add(btn_eliminar);
             Controls.Add(cmb_rol);
             Controls.Add(label7);
             Controls.Add(btn_salir);
@@ -281,5 +296,6 @@
         private Button btn_salir;
         private Label label7;
         private ComboBox cmb_rol;
+        private Button btn_eliminar;
     }
 }
