@@ -15,7 +15,7 @@ public partial class PiezasUsadasOt
 
     public decimal PrecioUnitario { get; set; }
 
-    public virtual OrdenesTrabajo Ot { get; set; } = null!;
+    public virtual OrdenesTrabajo Ot { get; set; }
 
-    public virtual Inventario Pieza { get; set; } = null!;
+    public virtual Inventario Pieza { get; set; }
 }

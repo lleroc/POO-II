@@ -58,6 +58,7 @@
             btn_eliminar.TabIndex = 39;
             btn_eliminar.Text = "Eliminar";
             btn_eliminar.UseVisualStyleBackColor = true;
+            btn_eliminar.Click += btn_eliminar_Click;
             // 
             // label7
             // 
@@ -96,6 +97,7 @@
             btn_editar.TabIndex = 34;
             btn_editar.Text = "Editar";
             btn_editar.UseVisualStyleBackColor = true;
+            btn_editar.Click += btn_editar_Click;
             // 
             // btn_Guardar
             // 
@@ -204,6 +206,7 @@
             lst_lista_clientes.Name = "lst_lista_clientes";
             lst_lista_clientes.Size = new Size(220, 304);
             lst_lista_clientes.TabIndex = 20;
+            lst_lista_clientes.DoubleClick += lst_lista_clientes_DoubleClick;
             // 
             // txt_direccion
             // 
@@ -221,6 +224,7 @@
             button1.TabIndex = 41;
             button1.Text = "Exportar Clientes";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // frm_clientes
             // 

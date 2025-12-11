@@ -58,6 +58,7 @@
             lst_lista_usuarios.Name = "lst_lista_usuarios";
             lst_lista_usuarios.Size = new Size(193, 259);
             lst_lista_usuarios.TabIndex = 0;
+            lst_lista_usuarios.SelectedIndexChanged += lst_lista_usuarios_SelectedIndexChanged;
             lst_lista_usuarios.DoubleClick += lst_lista_usuarios_DoubleClick;
             // 
             // label1

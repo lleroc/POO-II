@@ -20,6 +20,8 @@ public partial class MecanicaContext : DbContext
 
     public virtual DbSet<DocumentacionOt> DocumentacionOts { get; set; }
 
+    public virtual DbSet<Efmigrationshistory> Efmigrationshistories { get; set; }
+
     public virtual DbSet<Factura> Facturas { get; set; }
 
     public virtual DbSet<Inventario> Inventarios { get; set; }
@@ -35,10 +37,11 @@ public partial class MecanicaContext : DbContext
     public virtual DbSet<Role> Roles { get; set; }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
-   
+
     public virtual DbSet<Vehiculo> Vehiculos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseMySql("server=localhost;port=3306;database=mecanica;uid=root;pwd=root", Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.24-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -59,6 +62,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("cliente_id");
             entity.Property(e => e.Apellido)
+                .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("apellido");
             entity.Property(e => e.Direccion)
@@ -67,7 +71,9 @@ public partial class MecanicaContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(150)
                 .HasColumnName("email");
+            entity.Property(e => e.Estado).HasColumnName("estado");
             entity.Property(e => e.Nombre)
+                .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("nombre");
             entity.Property(e => e.Telefono)
@@ -99,6 +105,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("ot_id");
             entity.Property(e => e.Tipo)
+                .IsRequired()
                 .HasColumnType("enum('Nota','Foto','Archivo')")
                 .HasColumnName("tipo");
             entity.Property(e => e.UsuarioId)
@@ -116,6 +123,21 @@ public partial class MecanicaContext : DbContext
                 .HasConstraintName("documentacion_ot_ibfk_2");
         });
 
+        modelBuilder.Entity<Efmigrationshistory>(entity =>
+        {
+            entity.HasKey(e => e.MigrationId).HasName("PRIMARY");
+
+            entity
+                .ToTable("__efmigrationshistory")
+                .HasCharSet("utf8mb4")
+                .UseCollation("utf8mb4_general_ci");
+
+            entity.Property(e => e.MigrationId).HasMaxLength(150);
+            entity.Property(e => e.ProductVersion)
+                .IsRequired()
+                .HasMaxLength(32);
+        });
+
         modelBuilder.Entity<Factura>(entity =>
         {
             entity.HasKey(e => e.FacturaId).HasName("PRIMARY");
@@ -128,6 +150,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("factura_id");
             entity.Property(e => e.EstadoPago)
+                .IsRequired()
                 .HasColumnType("enum('Pendiente','Pagado','Anulado')")
                 .HasColumnName("estado_pago");
             entity.Property(e => e.FechaEmision)
@@ -167,6 +190,7 @@ public partial class MecanicaContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("codigo_sku");
             entity.Property(e => e.NombrePieza)
+                .IsRequired()
                 .HasMaxLength(150)
                 .HasColumnName("nombre_pieza");
             entity.Property(e => e.PrecioCosto)
@@ -246,6 +270,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("text")
                 .HasColumnName("descripcion_problema");
             entity.Property(e => e.Estado)
+                .IsRequired()
                 .HasColumnType("enum('Pendiente','Aprobado','En Proceso','Finalizado','Facturado','Cancelado')")
                 .HasColumnName("estado");
             entity.Property(e => e.FechaCreacion)
@@ -335,6 +360,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("cliente_id");
             entity.Property(e => e.Estado)
+                .IsRequired()
                 .HasColumnType("enum('Pendiente','Aprobado','Rechazado','Convertido a OT')")
                 .HasColumnName("estado");
             entity.Property(e => e.FechaEmision)
@@ -363,6 +389,7 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("rol_id");
             entity.Property(e => e.NombreRol)
+                .IsRequired()
                 .HasMaxLength(50)
                 .HasColumnName("nombre_rol");
         });
@@ -385,15 +412,19 @@ public partial class MecanicaContext : DbContext
                 .HasDefaultValueSql("'1'")
                 .HasColumnName("activo");
             entity.Property(e => e.Apellido)
+                .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("apellido");
             entity.Property(e => e.Email)
+                .IsRequired()
                 .HasMaxLength(150)
                 .HasColumnName("email");
             entity.Property(e => e.Nombre)
+                .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("nombre");
             entity.Property(e => e.PasswordHash)
+                .IsRequired()
                 .HasMaxLength(255)
                 .HasColumnName("password_hash");
             entity.Property(e => e.RolId)
@@ -429,15 +460,19 @@ public partial class MecanicaContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("kilometraje");
             entity.Property(e => e.Marca)
+                .IsRequired()
                 .HasMaxLength(50)
                 .HasColumnName("marca");
             entity.Property(e => e.Modelo)
+                .IsRequired()
                 .HasMaxLength(50)
                 .HasColumnName("modelo");
             entity.Property(e => e.Placa)
+                .IsRequired()
                 .HasMaxLength(10)
                 .HasColumnName("placa");
             entity.Property(e => e.TipoMotor)
+                .IsRequired()
                 .HasColumnType("enum('Diesel','Eléctrico','Híbrido')")
                 .HasColumnName("tipo_motor");
 

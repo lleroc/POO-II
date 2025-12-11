@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Data_Base_firts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f61de5fab4678c30d41371d0fa44c7cc5d74bae8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5ba6639aa07895c0d8fadf0868c7a2e4dc77e88")]
 [assembly: System.Reflection.AssemblyProductAttribute("Data_Base_firts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Data_Base_firts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

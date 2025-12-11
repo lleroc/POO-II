@@ -19,23 +19,23 @@ public partial class OrdenesTrabajo
 
     public DateTime? FechaFinalizacion { get; set; }
 
-    public string? DescripcionProblema { get; set; }
+    public string DescripcionProblema { get; set; }
 
-    public string Estado { get; set; } = null!;
+    public string Estado { get; set; }
 
     public decimal? CostoTotal { get; set; }
 
     public virtual ICollection<DocumentacionOt> DocumentacionOts { get; set; } = new List<DocumentacionOt>();
 
-    public virtual Factura? Factura { get; set; }
+    public virtual Factura Factura { get; set; }
 
     public virtual ICollection<ManoObra> ManoObras { get; set; } = new List<ManoObra>();
 
-    public virtual Usuario? MecanicoAsignado { get; set; }
+    public virtual Usuario MecanicoAsignado { get; set; }
 
     public virtual ICollection<PiezasUsadasOt> PiezasUsadasOts { get; set; } = new List<PiezasUsadasOt>();
 
-    public virtual Usuario Recepcionista { get; set; } = null!;
+    public virtual Usuario Recepcionista { get; set; }
 
-    public virtual Vehiculo Vehiculo { get; set; } = null!;
+    public virtual Vehiculo Vehiculo { get; set; }
 }

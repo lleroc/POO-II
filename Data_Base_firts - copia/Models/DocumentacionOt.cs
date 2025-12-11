@@ -11,13 +11,13 @@ public partial class DocumentacionOt
 
     public int UsuarioId { get; set; }
 
-    public string Tipo { get; set; } = null!;
+    public string Tipo { get; set; }
 
-    public string? Contenido { get; set; }
+    public string Contenido { get; set; }
 
     public DateTime FechaRegistro { get; set; }
 
-    public virtual OrdenesTrabajo Ot { get; set; } = null!;
+    public virtual OrdenesTrabajo Ot { get; set; }
 
-    public virtual Usuario Usuario { get; set; } = null!;
+    public virtual Usuario Usuario { get; set; }
 }

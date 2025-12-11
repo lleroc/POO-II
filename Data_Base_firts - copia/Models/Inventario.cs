@@ -7,9 +7,9 @@ public partial class Inventario
 {
     public int PiezaId { get; set; }
 
-    public string NombrePieza { get; set; } = null!;
+    public string NombrePieza { get; set; }
 
-    public string? CodigoSku { get; set; }
+    public string CodigoSku { get; set; }
 
     public int StockActual { get; set; }
 

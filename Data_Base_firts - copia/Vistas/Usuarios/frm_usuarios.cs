@@ -190,12 +190,12 @@ namespace Data_Base_firts.Vistas.Usuarios
                 txt_contrasenia.Text = usuario.PasswordHash;
                 chb_estado.Checked = usuario.Activo ?? false;
                 cmb_rol.SelectedValue = usuario.RolId;
-                
+
                 if (opcion == 1)
                 {
                     usuarioId_editar = usuario.UsuarioId;
                     acctivacajas();
-                } 
+                }
             }
         }
 
@@ -218,16 +218,17 @@ namespace Data_Base_firts.Vistas.Usuarios
             }
             else
             {
-               var resultado = MessageBox.Show("¿Está seguro de que desea eliminar este usuario?"
-                   , "Gestion de Usuarios", 
-                   MessageBoxButtons.YesNo, 
-                   MessageBoxIcon.Question);
-                if (resultado == DialogResult.Yes) {
+                var resultado = MessageBox.Show("¿Está seguro de que desea eliminar este usuario?"
+                    , "Gestion de Usuarios",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+                if (resultado == DialogResult.Yes)
+                {
                     var usuarioId = (int)lst_lista_usuarios.SelectedValue;
                     var eliminar = _usuariosController.DeleteUsuario(usuarioId);
                     if (eliminar)
                     {
-                        MessageBox.Show("Usuario eliminado con éxito.", "Gestion de Usuarios", 
+                        MessageBox.Show("Usuario eliminado con éxito.", "Gestion de Usuarios",
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
                         limpiar_campos();
                         carga_lista();
@@ -239,6 +240,11 @@ namespace Data_Base_firts.Vistas.Usuarios
                     }
                 }
             }
+        }
+
+        private void lst_lista_usuarios_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

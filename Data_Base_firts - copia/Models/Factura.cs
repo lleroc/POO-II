@@ -17,7 +17,7 @@ public partial class Factura
 
     public decimal MontoTotal { get; set; }
 
-    public string EstadoPago { get; set; } = null!;
+    public string EstadoPago { get; set; }
 
-    public virtual OrdenesTrabajo? Ot { get; set; }
+    public virtual OrdenesTrabajo Ot { get; set; }
 }

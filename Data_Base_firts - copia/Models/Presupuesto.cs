@@ -13,7 +13,7 @@ public partial class Presupuesto
 
     public decimal TotalEstimado { get; set; }
 
-    public string Estado { get; set; } = null!;
+    public string Estado { get; set; }
 
-    public virtual Cliente Cliente { get; set; } = null!;
+    public virtual Cliente Cliente { get; set; }
 }

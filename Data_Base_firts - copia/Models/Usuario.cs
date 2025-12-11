@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data_Base_firts.Models;
@@ -11,13 +10,13 @@ public partial class Usuario
 
     public int RolId { get; set; }
 
-    public string Nombre { get; set; } = null!;
+    public string Nombre { get; set; }
 
-    public string Apellido { get; set; } = null!;
+    public string Apellido { get; set; }
 
-    public string Email { get; set; } = null!;
+    public string Email { get; set; }
 
-    public string PasswordHash { get; set; } = null!;
+    public string PasswordHash { get; set; }
 
     public bool? Activo { get; set; }
 
@@ -29,15 +28,7 @@ public partial class Usuario
 
     public virtual ICollection<OrdenesTrabajo> OrdenesTrabajoRecepcionista { get; set; } = new List<OrdenesTrabajo>();
 
-    public virtual Role Rol { get; set; } = null!;
-
-
-    //no se envia a la base de datos
+    public virtual Role Rol { get; set; }
     [NotMapped]
-    [DisplayName("Nombre Completo")]
-    public string NombreCompleto
-    {
-        get { return $"{Nombre} {Apellido}"; }
-    }
-    
+    public string NombreCompleto => $"{Nombre} {Apellido}";
 }

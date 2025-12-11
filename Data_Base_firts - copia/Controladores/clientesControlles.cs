@@ -8,11 +8,13 @@ namespace Data_Base_firts.Controladores
         private readonly MecanicaContext _context = new MecanicaContext();
         public List<Cliente> GetAllClientes()
         {
-            return _context.Clientes.OrderBy(u => u.Nombre).ToList();
+            return _context.Clientes
+                .Where(c=> c.Estado == true)
+                .OrderBy(u => u.Nombre).ToList();
         }
         public Cliente GetUsuarioById(int id)
         {
-            return _context.Clientes
+            return _context.Clientes.Where(c => c.Estado == true)
                 .FirstOrDefault(u => u.ClienteId == id);
 
         }
@@ -59,7 +61,9 @@ namespace Data_Base_firts.Controladores
                 var cliente1 = _context.Clientes.Find(id);
                 if (cliente1 != null)
                 {
-                    _context.Clientes.Remove(cliente1);
+
+                    //_context.Clientes.Remove(cliente1);
+                    cliente1.Estado = false;
                     _context.SaveChanges();
                 }
                 return true;

@@ -1,4 +1,5 @@
 ﻿using Data_Base_firts.Controladores;
+using Data_Base_firts.Vistas.Reportes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -118,18 +119,96 @@ namespace Data_Base_firts.Vistas.Clientes
         private void carga_lista()
         {
             var lista_clientes = _clientesController.GetAllClientes();
-
             lst_lista_clientes.DataSource = lista_clientes;
             lst_lista_clientes.DisplayMember = "NombreCompleto";
             lst_lista_clientes.ValueMember = "ClienteId";
-
-
-
         }
 
         private void frm_clientes_Load(object sender, EventArgs e)
         {
             carga_lista();
+        }
+
+        private void btn_editar_Click(object sender, EventArgs e)
+        {
+
+            if (lst_lista_clientes.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, seleccione un usuario para editar.", "Gestion de Usuarios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                uno(1);
+            }
+        }
+
+        public void uno(int opcion)
+        {
+            var cliente = _clientesController.GetUsuarioById((int)lst_lista_clientes.SelectedValue);
+            if (cliente == null)
+            {
+                MessageBox.Show("No se encontro al usuario", "Gestion de Usuarios",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                txt_apellido.Text = cliente.Apellido;
+                txt_nombre.Text = cliente.Nombre;
+                txt_email.Text = cliente.Email;
+                txt_direccion.Text = cliente.Direccion;
+                txt_telefono.Text = cliente.Telefono;
+
+                if (opcion == 1)
+                {
+                    clienteId_editar = cliente.ClienteId;
+                    acctivacajas();
+                }
+            }
+        }
+
+        private void lst_lista_clientes_DoubleClick(object sender, EventArgs e)
+        {
+            uno(0);
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            if (lst_lista_clientes.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, seleccione un cliente para eliminar.", "Gestion de Clientes", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                var resultado = MessageBox.Show("¿Está seguro de que desea eliminar este cliente?"
+                    , "Gestion de Usuarios",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+                if (resultado == DialogResult.Yes)
+                {
+                    var clienteId = (int)lst_lista_clientes.SelectedValue;
+                    var eliminar = _clientesController.DeleteCliente(clienteId);
+                    if (eliminar)
+                    {
+                        MessageBox.Show("Cliente eliminado con éxito.", "Gestion de Usuarios",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiar_campos();
+                        carga_lista();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar el usuario. Por favor, intente nuevamente."
+                            , "Gestion de Usuarios", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           Reporte_Clientes reporte_Clientes = new Reporte_Clientes();
+            reporte_Clientes.Show();
         }
     }
 }
